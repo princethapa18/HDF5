@@ -1,0 +1,23 @@
+Convert a ".pc" (Pamcrash geometry text file) into my own hdf5 format file i.e ".myh5" file.
+Create a small application to read ".pc" file and convert that into ".myh5" file.
+And it should also be able to read ".myh5" file.
+
+Extension would be to show the geometry using opengl (Bigger task. Maybe Later)
+
+HDF5 (Heirarchical Data Format version 5) 
+Data is stored in tree structure.
+3 types
+groups
+datasets
+fields
+
+".pc" is a Pamcrash geometry model file:
+It consists of several parts 
+and each part has elements and 
+each element has nodes.
+
+
+Requirements:
+C++, C
+HDF5 viewer to view ".myh5" file
+HDF5 C++ functions to create/access datasets, groups and fields.
